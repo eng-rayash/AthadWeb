@@ -1,0 +1,20 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Build outputs ────────────────────────────────────────────────────────────
+dist/
+build/
+
+# ─── Environment variables (NEVER commit these) ───────────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── OS & Editor files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+*.log
+
+# ─── pnpm ─────────────────────────────────────────────────────────────────────
+.pnpm-store/
